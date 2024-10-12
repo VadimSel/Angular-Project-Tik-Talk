@@ -6,7 +6,7 @@ export interface LoginForm {
   password: string
 }
 
-export interface AuthSuccessResponse {
+export interface TokenResponse {
   access_token: string
   refresh_token: string
   token_type: string
